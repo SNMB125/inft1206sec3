@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Name:
+        Student ID:
+        Section: 3
+        Date:
+        Description:
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birdwatching</title>
+    <style>
+        body {
+            background-color: #99ff66;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #33cc33;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .header h1 {
+            font-family: 'Fantasy';
+            margin: 0;
+            color: #000000;
+            font-size: 2.5em;
+        }
+        .header img {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            height: 50px;
+            width: auto;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #66ff33;
+            padding: 10px;
+        }
+        .navbar a {
+            color: #000000;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .navbar a:hover {
+            background-color: #d0d0d0;
+            color: black;
+        }
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+        .welcome {
+            flex: 1;
+            padding: 20px;
+            background-color: #99ff66;
+            color: #000000;
+            margin-right: 10px;
+            border: 1px solid #000000;
+        }
+        .welcome h2 {
+            font-family: 'Fantasy';
+            font-size: 2em;
+        }
+        .photos {
+            flex: 1;
+            padding: 20px;
+            background-color: #99ff66;
+            color: #000000;
+            margin-left: 10px;
+            border: 1px solid #000000;
+        }
+        .photos h2 {
+            font-family: 'Fantasy';
+            font-size: 2em;
+        }
+        .photos img {
+            width: 48%;
+            height: auto;
+            margin-bottom: 10px;
+            border: 1px solid #000000;
+        }
+        .footer {
+            background-color: #66ff33;
+            text-align: center;
+            padding: 10px;
+            font-size: 1em;
+            color: #000000;
+            border-top: 1px solid #000000;
+        }
+        .footer a {
+            color: #0000ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>BIRDWATCHING</h1>
+        <img src="images/dove.png" alt="Dove icon">
+    </div>
+    <div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#">GET STARTED</a>
+        <a href="#">PHOTOS</a>
+        <a href="#">GEAR</a>
+        <a href="#">FORUM</a>
+    </div>
+    <div class="content">
+        <div class="welcome">
+            <h2>WELCOME</h2>
+            <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+            <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+        </div>
+        <div class="photos">
+            <h2>FAVOURITE PHOTOS</h2>
+            <img src="images/favorite-1_th.jpg" alt="Photo 1">
+            <img src="images/favorite-2_th.jpg" alt="Photo 2">
+            <img src="images/favorite-3_th.jpg" alt="Photo 3">
+            <img src="images/favorite-4_th.jpg" alt="Photo 4">
+        </div>
+    </div>
+    <div class="footer">
+        <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.<br>
+        <a href="https://example.com/dove_icon">Dove icon</a> by Lorc.</p>
+    </div>
+</body>
+</html>
