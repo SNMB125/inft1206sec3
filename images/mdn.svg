@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: left;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header img {
+            float: right;
+            width: 50px;
+            height: 50px;
+        }
+        .video-section {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .content p {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: #d32f2f;
+        }
+        .icons img {
+            margin: 0 10px;
+            width: 100px;
+            height: 100px;
+        }
+        .red-panda {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .red-panda img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mozilla</h1>
+        <img src="https://www.mozilla.org/media/img/firefox/firefox-256.e2c1fc556816.jpg" alt="Mozilla Logo">
+    </div>
+    <div class="video-section">
+        <iframe width="738" height="415" src="https://www.youtube.com/embed/tRlmP6xWdw0" title="Welcome to Firefox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="content">
+        <h2>Rocking the free web</h2>
+        <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+        <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href="https://commons.wikimedia.org/wiki/File:Red_Panda_(42789926425).jpg">Red panda picture</a> by Mathias Appel.</p>
+    </div>
+    <div class="icons">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Mozilla_Firefox_Logo_2013.svg/1024px-Mozilla_Firefox_Logo_2013.svg.png" alt="Firefox Logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mozilla_dinosaur_head_logo.png/1024px-Mozilla_dinosaur_head_logo.png" alt="Mozilla Dinosaur Logo">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Mozilla_Firefox_Logo_Puzzle.png/1024px-Mozilla_Firefox_Logo_Puzzle.png" alt="Firefox Puzzle Logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Mozilla_Foundation_Logo.png/1024px-Mozilla_Foundation_Logo.png" alt="Mozilla Foundation Logo">
+    </div>
+    <div class="red-panda">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Red_Panda_%2842789926425%29.jpg/1024px-Red_Panda_%2842789926425%29.jpg" alt="Red Panda">
+    </div>
+</body>
+</html>
