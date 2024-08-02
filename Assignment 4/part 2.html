@@ -1,0 +1,65 @@
+<!--
+    Name: Shahryar Naveed
+    Date: 08/02/2024
+    File: Assignment 4 
+    Description: Assignment 4 part 2
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            text-align: center;
+        }
+        .container {
+            text-align: center;
+        }
+        .main-image {
+            width: 500px;
+            height: auto;
+        }
+        .thumbnail {
+            width: 100px;
+            height: auto;
+            margin: 5px;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+        .thumbnail:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <script src="part2.js"></script>
+    <h2>Image Gallery Example</h2>
+    <div class="container">
+        <button onclick="darkenImage()">Darken</button>
+        <img id="main-image" class="main-image" src="gallery-start/images/pic5.jpg" alt="Main Image">
+        <div>
+            <img src="gallery-start/images/pic1.jpg" alt="Eye" class="thumbnail" onclick="changeImage('gallery-start/images/pic1.jpg')">
+            <img src="gallery-start/images/pic2.jpg" alt="Sculpture" class="thumbnail" onclick="changeImage('gallery-start/images/pic2.jpg')">
+            <img src="gallery-start/images/pic3.jpg" alt="Flowers" class="thumbnail" onclick="changeImage('gallery-start/images/pic3.jpg')">
+            <img src="gallery-start/images/pic4.jpg" alt="Painting" class="thumbnail" onclick="changeImage('gallery-start/images/pic4.jpg')">
+            <img src="gallery-start/images/pic5.jpg" alt="Butterfly" class="thumbnail" onclick="changeImage('gallery-start/images/pic5.jpg')">
+        </div>
+    </div>
+
+    <script>
+        function changeImage(src) {
+            document.getElementById('main-image').src = src;
+        }
+
+        function darkenImage() {
+            let img = document.getElementById('main-image');
+            img.style.filter = img.style.filter === 'brightness(50%)' ? 'brightness(100%)' : 'brightness(50%)';
+        }
+    </script>
+</body>
+</html>
